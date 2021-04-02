@@ -29,10 +29,12 @@ export default function ForgotPasswd() {
 
     function navLogin() {
         // redirecionar para screen de login
+        navigation.navigate('Login')
     }
 
     function navCreateAccount() {
         // redirecionar para screen de criar conta
+        navigation.navigate('CreateAccount')
     }
 
     const submitFormButton = () => {
