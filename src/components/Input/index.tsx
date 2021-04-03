@@ -61,6 +61,10 @@ const Input: React.ForwardRefRenderFunction<InputRef, InputProps> = (
         setFocused(false);
     };
 
+    const resetForm = () => {
+        inputValueRef.current.value = ''
+    }
+
     return (
         <S.Container isErrored={!!error}>
             <S.Icon

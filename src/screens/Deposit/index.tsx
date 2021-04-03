@@ -29,6 +29,7 @@ interface IDepositForm {
 export default function Deposit() {
     const formRef = useRef<FormHandles>(null);
     const valueInputRef = useRef<TextInput>(null);
+    const descricaoInputRef = useRef<TextInput>(null);
     const dispatch = useDispatch();
     const navigation = useNavigation();
     const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
@@ -58,12 +59,17 @@ export default function Deposit() {
 
     const navDashboard = () => {
         setLoading(false)
-        navigation.navigate('DashboardHome')
+        navigation.navigate('Home');
     };
 
     const submitFormButton = () => {
         formRef.current?.submitForm();
     };
+
+    const clearAndGoBack = () => {
+        formRef.current?.reset()
+        navigation.goBack()
+    }
 
     async function handleSubmit({descricao, valor}: IDepositForm) {
         try {
@@ -133,7 +139,7 @@ export default function Deposit() {
         <ContainerScroll _bgColor="#e6e6e6">
             <S.HeaderDashboard>
                 <S.TextHeaderDashboard>Olá, {user?.userName}</S.TextHeaderDashboard>
-                <S.CloseButton onPress={() => navigation.goBack()}>
+                <S.CloseButton onPress={() => clearAndGoBack(formRef)}>
                     <Feather name="x" size={33} color="#8C52E5" />
                 </S.CloseButton>
             </S.HeaderDashboard>
@@ -155,6 +161,7 @@ export default function Deposit() {
                             placeholder="Descrição"
                             autoCorrect={false}
                             returnKeyType="next"
+                            ref={descricaoInputRef}
                             onSubmitEditing={() => {
                                 // Check out Input comp to details on this custom focus method
                                 valueInputRef.current?.focus();
