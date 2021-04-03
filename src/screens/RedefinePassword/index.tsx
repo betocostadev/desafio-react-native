@@ -25,6 +25,7 @@ export default function RedefinePassword() {
     const params = route.params as IParams;
     const formRef = useRef<FormHandles>(null);
     const passwdConfirmInputRef = useRef<TextInput>(null);
+    console.log(route.params)
 
     function navLogin() {
         navigation.navigate('Login');

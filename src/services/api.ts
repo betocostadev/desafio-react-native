@@ -1,8 +1,8 @@
-import axios, { AxiosInstance } from 'axios';
+import axios, { AxiosInstance } from 'axios'
 
 const api: AxiosInstance = axios.create({
-    baseURL: '',
-});
+    baseURL: 'https://accenture-java-desafio.herokuapp.com/',
+})
 
-// adicionar endpoin
-export default api;
+// adicionar endpoint
+export default api
