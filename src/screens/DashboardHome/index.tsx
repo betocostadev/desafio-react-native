@@ -151,7 +151,7 @@ const DashboardHome: React.FC<Props> = ({ navigation }) => {
                 ) : (
                     <>
                         <WhiteCardDashboard
-                            _MarginBottom="30px"
+                            _MarginBottom="15px"
                             _Padding="20px"
                         >
                             <S.HeaderCard>
@@ -188,7 +188,7 @@ const DashboardHome: React.FC<Props> = ({ navigation }) => {
                             </S.ContentCard>
                         </WhiteCardDashboard>
                         <WhiteCardDashboard
-                            _MarginBottom="30px"
+                            _MarginBottom="15px"
                             _Padding="20px"
                         >
                             <S.HeaderCard>
