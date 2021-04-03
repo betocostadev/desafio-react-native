@@ -21,7 +21,11 @@ import { IRootState } from '../../store';
 import InputMasked from '../../components/InputMasked';
 import {Feather} from '@expo/vector-icons';
 
-// criar interface
+interface ITransferForm{
+    descricao: string
+    valor: number
+    destinatario: string
+}
 
 export default function Transfers() {
     const navigation = useNavigation();
@@ -65,11 +69,8 @@ export default function Transfers() {
         formRef.current?.submitForm();
     };
 
-    async function handleSubmit({
-                                    descricao,
-                                    valor,
-                                    destinatario,
-                                }: ITransferForm) {
+    async function handleSubmit(
+        { descricao, valor, destinatario }: ITransferForm) {
         try {
             valor = valor && createFloat(valor);
             formRef.current?.setErrors({});
@@ -127,6 +128,7 @@ export default function Transfers() {
                 })
             );
             formRef.current?.setFieldValue(descricao, '');
+            formRef.current?.setFieldValue(destinatario, '');
             navDashboard();
         } catch (err) {
             setLoading(false);

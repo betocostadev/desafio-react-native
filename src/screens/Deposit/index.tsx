@@ -57,8 +57,8 @@ export default function Deposit() {
     };
 
     const navDashboard = () => {
-        //  setar loading como falso
-        //  redirecionar para screen da home
+        setLoading(false)
+        navigation.navigate('DashboardHome')
     };
 
     const submitFormButton = () => {

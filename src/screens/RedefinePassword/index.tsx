@@ -17,6 +17,15 @@ import getValidationErrors from '../../utils/getValidationErrors';
 import api from '../../services/api';
 
 //  criar interfaces
+interface IParams {
+    senhaTemporaria: number;
+    login: string;
+}
+
+interface IResetPasswdForm {
+    passwd: string;
+    confirmPasswd: string;
+}
 
 export default function RedefinePassword() {
     const [loading, setLoading] = useState(false);
@@ -25,7 +34,6 @@ export default function RedefinePassword() {
     const params = route.params as IParams;
     const formRef = useRef<FormHandles>(null);
     const passwdConfirmInputRef = useRef<TextInput>(null);
-    console.log(route.params)
 
     function navLogin() {
         navigation.navigate('Login');

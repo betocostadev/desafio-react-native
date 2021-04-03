@@ -13,9 +13,10 @@ export const ContainerLogo = styled.View<LogoProps>`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
 `
 
 export const LogoGama = styled.Image`
-  width: 100%;
+  width: 80%;
   max-width: 249px;
 `;
