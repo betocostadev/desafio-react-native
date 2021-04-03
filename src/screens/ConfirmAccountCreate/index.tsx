@@ -24,6 +24,7 @@ export default function ConfirmAccountCreate() {
 
     function navLogin() {
         // redirecionar para screen de login
+        navigation.navigate('Login');
     }
 
     return (

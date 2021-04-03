@@ -17,6 +17,13 @@ import InputMasked from '../../components/InputMasked';
 
 // criar interface
 
+interface FormFields {
+    cpf: string
+    name: string
+    fullName: string
+    passwd: string
+}
+
 export default function CreateAccount() {
     const [loading, setLoading] = useState(false);
     const formRef = useRef<FormHandles>(null);
@@ -58,7 +65,7 @@ export default function CreateAccount() {
             setLoading(true);
 
             const formData = {
-                cpf: cpf.replace(/\.|-/gm, ''), 
+                cpf: cpf.replace(/\.|-/gm, ''),
                 login: name,
                 nome: fullName,
                 senha: passwd,
