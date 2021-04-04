@@ -14,10 +14,10 @@ const DrawerContentView: React.FC<DrawerProps> = ({ navigation, children }) => {
         <DrawerContent>
             <HeaderDrawer>
                 <ButtonUserHeader>
-                    <Ionicons name="md-person-outline" size={33} color="#8C52E5" />
+                    <Ionicons name="md-person-outline" size={33} color="#71b8dc" />
                 </ButtonUserHeader>
                 <ButtonCloseHeader onPress={() => navigation.closeDrawer()}>
-                    <Ionicons name="md-close-sharp" size={33} color="#8C52E5" />
+                    <Ionicons name="md-close-sharp" size={33} color="#71b8dc" />
                 </ButtonCloseHeader>
             </HeaderDrawer>
             {children}

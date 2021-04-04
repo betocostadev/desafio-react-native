@@ -28,7 +28,7 @@ const InputMasked: React.ForwardRefRenderFunction<InputRef, InputProps> = (
     { name, icon, mask, ...rest },
     ref
 ) => {
-    
+
     const {
         registerField,
         defaultValue,

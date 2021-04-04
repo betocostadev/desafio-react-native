@@ -9,14 +9,14 @@ export const Container = styled.View<ContainerProps>`
     width: 100%;
     height: 50px;
     background-color: #fff;
-    border-bottom-width: 2px;
-    border-bottom-color: #878686;
-    border-style: solid;
+    border: 1px;
+    border-color: #cfd8dc;
+    border-radius: 5px;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    padding: 0;
+    padding: 10px;
     color: #999;
 
     ${(props) =>

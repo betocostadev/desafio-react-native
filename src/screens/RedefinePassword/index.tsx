@@ -119,6 +119,7 @@ export default function RedefinePassword() {
                                 title="Continuar"
                                 iconName="arrow-right"
                                 iconColor="#FFF"
+                                bgColor="#71b8dc"
                                 iconSize={25}
                                 marginTop="60px"
                                 marginBottom="30px"
@@ -131,7 +132,7 @@ export default function RedefinePassword() {
                             <Feather
                                 name="chevron-right"
                                 size={13}
-                                color="#8C52E5"
+                                color="#71b8dc"
                             />
                         </LinksBottom>
                     </WhiteCardLoginRegister>

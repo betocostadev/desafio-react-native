@@ -146,7 +146,7 @@ export default function Login() {
                                     iconSize={25}
                                     marginTop="20px"
                                     marginBottom="30px"
-                                    bgColor="#63dc3f"
+                                    bgColor="#71b8dc"
                                     color="#fff"
                                     onPress={submitFormButton}
                                     _loading={loading}
@@ -156,7 +156,7 @@ export default function Login() {
                                     <Feather
                                         name="chevron-right"
                                         size={13}
-                                        color="#8C52E5"
+                                        color="#71b8dc"
                                     />
                                 </LinksBottom>
                                 <LinksBottom onPress={navCreateAccount}>
@@ -164,7 +164,7 @@ export default function Login() {
                                     <Feather
                                         name="chevron-right"
                                         size={13}
-                                        color="#8C52E5"
+                                        color="#71b8dc"
                                     />
                                 </LinksBottom>
                             </LoginForm>

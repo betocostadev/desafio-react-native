@@ -1,43 +1,47 @@
-## Desafio REACT NATIVE | GAMA | ACCENTURE
-
-![screen](./screen.jpeg)
-
-Esta é a continuação do desafio de React, fique atendo às especificações.
-
-Para iniciar seu projeto você deve:
-Baixar o repositório e instalar todas as dependências usando `yarn` ou `npm i`.
-
-Para iniciar o projeto em modo desenvolvimento use o comando `yarn start` ou `npm run start`.
-
-# Para cumprir seu desafio você deve:
-
-1 - Em grupo adapte ao layou do seu projeto.
-
-2 - Iniciar seu projeto, você deve clonar este repositório e criar um novo para o grupo.
-
-3 - Se atente as funcionalidades, complete os gaps.
-
-4 - A estilização é de livre escolha, você pode usar qualquer pacote de sua preferêcia para a entrega final.
-
-5 - Atente-se a tipagem.
-
-6 - Atenção ao métodos de nossa api. Para saber mais, [clique aqui](https://accenture-java-desafio.herokuapp.com/swagger-ui.html#/).
-
-7 - Sua aplicação deve ter as mesmas funcionalidades da versão que disponibilizamos online, você pode acessar clicando [aqui](https://react-accenture.vercel.app/).
-
-8 - Link de sua To do deve acompanhar na documentação de seu projeto.
-
-[Swagger](https://accenture-java-desafio.herokuapp.com/swagger-ui.html#/)
-
-[Arquivo de Referência para API - Insomnia](https://drive.google.com/file/d/1QJ5MnaidHOO4iRihoUB6rsvA-E99OIAQ/view?usp=sharing)
-
-[Visualizar projeto online](https://react-accenture.vercel.app/)
-
-- [x] Marque o usuário @mrdouglasmorais em seu entregavel.
-- [x] Documente o seu entregável.
-- [x] Temos um modelo de organização de tarefas você pode visualizar [clicando aqui](https://www.notion.so/2cb3a2864f5143f99a2bc3b4e7cb1247?v=bb4cfdb8149041e0974c3c6f5cf6573d).
-- [x] Em caso de dúvidas, chamem no Slack.
+# NOW BANK
 
 
-Boa sorte!
-Att: Douglas 
+![screen](./screen.png)
+
+This is a project of a fake bank React Native App.
+
+There is also a Web version [demo here](404-bank.vercel.app)
+
+## About:
+
+Project based on Accenture & Gama Academy's React Native Challenge
+Fake Bank React Native Application created on top of [Douglas Morais desafio-react-native-accenture](https://github.com/mrdouglasmorais/desafio-react-native-accenture)
+
+**Now Bank** communicates using REST endpoints. You can find the API Documentation [here](https://accenture-java-desafio.herokuapp.com/swagger-ui.html#/)
+
+Project written in [TypeScript](https://www.typescriptlang.org/)
+
+Since this challenge had a very short timeline, some of the functionalities in the Web version were not added in the React Native version.
+
+### Tech stack
+
+ 1. React, React Native, Expo.
+ 2. Redux
+ 3. Axios
+ 4. Styled components
+ 5. Unform
+ 6. Yup
+ 7. Jest
+
+## Running Now Bank
+
+Clone this repository
+
+Install all dependencies with
+
+`npm install`
+
+Start the project with
+
+`expo start`
+
+
+## Contributions
+This project is not going to be improved. If you want to use it as a base for your app, you can fork this project.
+
+
