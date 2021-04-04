@@ -1,7 +1,7 @@
 # NOW BANK
 
 
-![screen](./screen.png)
+![screen](./screen.jpeg)
 
 This is a project of a fake bank React Native App.
 
