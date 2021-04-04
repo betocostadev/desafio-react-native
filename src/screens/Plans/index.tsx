@@ -33,7 +33,7 @@ export default function Plans() {
                     </S.CloseButton>
                 </S.HeaderDashboard>
                 <WhiteCardDashboard
-                    _MarginBottom="20px"
+                    _MarginBottom="100px"
                     _Padding="20px 20px 40px"
                 >
                     <S.HeaderCard>

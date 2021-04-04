@@ -21,5 +21,5 @@ export const TextContent = styled.Text `
   padding-top: 2px;
   font-weight: bold;
   text-align: left;
-  color: #8C52E5;
+  color: #71b8dc;
 `

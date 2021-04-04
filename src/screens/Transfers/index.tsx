@@ -218,7 +218,7 @@ export default function Transfers() {
                                 iconSize={25}
                                 marginTop="40px"
                                 marginBottom="20px"
-                                bgColor={missingDate ? '#e6505c' : '#8c52e5'}
+                                bgColor={missingDate ? '#e6505c' : '#71b8dc'}
                                 color="#fff"
                             />
 
@@ -243,7 +243,7 @@ export default function Transfers() {
                                 onPress={submitFormButton}
                                 marginTop="20px"
                                 marginBottom="30px"
-                                bgColor="#63dc3f"
+                                bgColor="#71b8dc"
                                 color="#fff"
                                 _loading={loading}
                             />

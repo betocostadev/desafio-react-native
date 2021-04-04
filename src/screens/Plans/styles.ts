@@ -53,7 +53,7 @@ export const RowLastHistoric = styled.View`
 `;
 
 export const LineRowSeparatorHistoric = styled.Text`
-    color: #878686;
+    color: #71b8dc;
     font-size: 20px;
 `;
 
@@ -61,7 +61,7 @@ export const ViewPlans = styled.View`
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(140, 82, 229);
+    border: 2px solid #71b8dc;
     border-radius: 10px;
     margin-top: 15px;
     padding: 25px 0;
@@ -85,7 +85,7 @@ export const LettersViewPlans = styled.Text`
     height: 30px;
     width: 30px;
     padding-top: 4px;
-    background-color: rgb(140, 82, 229);
+    background-color: #71b8dc;
     border-radius: 50px;
     font-size: 16px;
 `;
