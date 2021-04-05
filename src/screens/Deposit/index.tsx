@@ -64,29 +64,15 @@ export default function Deposit() {
     };
 
     const navDashboard = () => {
-<<<<<<< HEAD
-        setLoading(false)
-        navigation.navigate('Home');
-=======
         setLoading(false);
         navigation.navigate('DashboardHome');
->>>>>>> master
     };
 
     const submitFormButton = () => {
         formRef.current?.submitForm();
     };
 
-<<<<<<< HEAD
-    const clearAndGoBack = () => {
-        formRef.current?.reset()
-        navigation.goBack()
-    }
-
-    async function handleSubmit({descricao, valor}: IDepositForm) {
-=======
     async function handleSubmit({ descricao, valor }: IDepositForm) {
->>>>>>> master
         try {
             valor = valor && createFloat(valor);
 
